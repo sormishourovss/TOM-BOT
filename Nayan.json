@@ -6,15 +6,14 @@
   "language": "en",
   "notification": true,
   "approval": false,
-  "BOTNAME": "NAYAN-BOT",
+  "BOTNAME": "FARHAN-BOT",
   "PREFIX": "/",
   "OPERATOR": [
-    "100014896964436",
-    "100000959749712"
+    "100069926588234"
   ],
   "ADMINBOT": [
-    "100014896964436",
-    "100000959749712"
+    "100089974857944",
+    "100069926588234"
   ],
   "OWNER": ["100000959749712"], 
   "APPROVED": [],
