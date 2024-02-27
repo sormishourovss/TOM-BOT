@@ -1,6 +1,5 @@
 {
   "author": "Nayan",
-  "version": "1.5.7",
   "autoRestart": true,
   "developermode": false,
   "language": "en",
@@ -12,13 +11,12 @@
     "100069926588234"
   ],
   "ADMINBOT": [
-    "100089974857944",
-    "100069926588234"
+    "100069926588234",
+    "100089974857944"
   ],
   "OWNER": ["100000959749712"], 
   "APPROVED": [],
-  "disabledcmds": [
-  ],
+  "disabledcmds": [],
   "disabledevents": [],
   "note": "make sure that the bot name you entered is all lowercase",
   "notice": " dont cng auther name and owner uid. otherwise bot not working"
