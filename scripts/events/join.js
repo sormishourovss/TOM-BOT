@@ -48,13 +48,13 @@ module.exports.run = async function({ api, event, Users }) {
   if (event.logMessageData.addedParticipants && Array.isArray(event.logMessageData.addedParticipants) && event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     //api.changeNickname(`𝗕𝗢𝗧 ${(!global.config.BOTNAME) ? "Buddy" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
 
-    let gifUrl = 'https://i.postimg.cc/wMPWx9Tc/farhan.jpg';
+    let gifUrl = 'https://i.postimg.cc/8zb22P6W/Picsart-24-02-28-22-24-49-778.jpg';
 let gifPath = __dirname + '/Nayan/join/farhan.jpg';
 
 axios.get(gifUrl, { responseType: 'arraybuffer' })
 .then(response => {
     fs.writeFileSync(gifPath, response.data);
-    return api.sendMessage("চলে এসেছি আমি পিচ্চি ফারহান তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি পিচ্চি সৌরভ তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
@@ -64,13 +64,13 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER : FARHAN ISLAM 
+DEVELOPER : 𝐒𝐇𝐎𝐔𝐑𝐎𝐕 𝐒𝐒
 
 🟣Facebook Account Link: 
 
-https://www.facebook.com/Imon.132233
+https://www.facebook.com/profile.php?id=100042318302537&mibextid=ZbWKwL
 
-🔵WHATSAPP NUMBER: INBOX`, attachment: fs.createReadStream(gifPath)}, threadID));
+🔵WHATSAPP NUMBER: 01709281334`, attachment: fs.createReadStream(gifPath)}, threadID));
 })
 .catch(error => {
     console.error(error);
