@@ -13,9 +13,9 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("Farhan")==0 || event.body.indexOf("farhan")==0 || event.body.indexOf("ফারহান")==0 || event.body.indexOf("FARHAN")==0) {
+	if (event.body.indexOf("Shourov")==0 || event.body.indexOf("shourov")==0 || event.body.indexOf("সৌরভ")==0 || event.body.indexOf("SHOUROV")==0) {
 		var msg = {
-				body: "ফা্ঁর্ঁহা্ঁন্ঁ এ্ঁখ্ঁন্ঁ খু্ঁব্ঁ বি্ঁজি্ঁ 🥰❤️🥀",
+				body: " সৌ্ঁর্ঁভ্ঁ এ্ঁখ্ঁন্ঁ খু্ঁব্ঁ বি্ঁজি্ঁ 🥰❤️🥀",
 				attachment: fs.createReadStream(__dirname + `/noprefix/boss.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
