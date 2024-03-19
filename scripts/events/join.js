@@ -159,7 +159,26 @@ https://www.facebook.com/profile.php?id=100042318302537&mibextid=ZbWKwL
         abx.push(fs.createReadStream(__dirname + `/Nayan/join/${o}.png`))
       }
       memLength.sort((a, b) => a - b);
-      (typeof threadData.customJoin == "undefined") ? msg = `Hello {name}\nWelcome to {threadName}\nyou're the {soThanhVien}th member on this group please enjoy"\n─────────────────\n[ {time} - {thu} ]` : msg = threadData.customJoin;
+      (typeof threadData.customJoin == "undefined") ? msg = `‎╔════•|      ✿      |•════╗
+ 💐আ্ঁস্ঁসা্ঁলা্ঁমু্ঁ💚আ্ঁলা্ঁই্ঁকু্ঁম্ঁ💐
+╚════•|      ✿      |•════╝
+
+    ✨🆆🅴🅻🅻 🅲🅾🅼🅴✨
+
+                 ❥𝐍𝐄𝐖~
+
+        ~🇲‌🇪‌🇲‌🇧‌🇪‌🇷‌~ {name}\༄✺আ্ঁপ্ঁনা্ঁকে্ঁ আ্ঁমা্ঁদে্ঁর্ঁ✺࿐ {threadName}🥰🖤🌸—এ্ঁর্ঁ প্ঁক্ষ্ঁ🍀থে্ঁকে্ঁ🍀—🌸🥀
+
+         🥀_ভা্ঁলো্ঁবা্ঁসা্ঁ_অ্ঁভি্ঁরা্ঁম্ঁ_🥀
+ \༄✺আঁপঁনিঁ এঁইঁ গ্রুঁপেঁর {soThanhVien} নঁং মে্ঁম্বা্ঁরঁ ࿐
+
+    ╔╦══•    •✠•❀•✠ •   •══╦╗
+        ♥  𝐁𝐎𝐓'𝐬 𝐎𝐖𝐍𝐄𝐑♥
+
+                           ☟                     
+
+      ♥𝐒𝐇𝐎𝐔𝐑𝐎𝐕-𝐁𝐎𝐓(✷‿✷)♥
+    ╚╩══•" "\n─────────────────\n[ {time} - {thu} ]` : msg = threadData.customJoin;
       var nameAuthor = await Users.getNameUser(event.author)
       msg = msg
         .replace(/\{iduser}/g, iduser.join(', '))
@@ -180,4 +199,4 @@ https://www.facebook.com/profile.php?id=100042318302537&mibextid=ZbWKwL
       }
     } catch (e) { return console.log(e) };
   }
-}
+                   }
