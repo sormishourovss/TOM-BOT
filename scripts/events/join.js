@@ -64,11 +64,11 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER : 𝐒𝐇𝐎𝐔𝐑𝐎𝐕 𝐒𝐒
+DEVELOPER : 𝐊𝐈𝐍𝐆  𝐒𝐇𝐎𝐔𝐑𝐎𝐕
 
 🟣Facebook Account Link: 
 
-https://www.facebook.com/profile.php?id=100042318302537&mibextid=ZbWKwL
+https://www.facebook.com/profile.php?id=100070297030133&mibextid=ZbWKwL
 
 🔵WHATSAPP NUMBER: 01709281334`, attachment: fs.createReadStream(gifPath)}, threadID));
 })
