@@ -40,7 +40,7 @@ react.includes("চুদা") ||
 react.includes("চুদি") || 
 react.includes("ষুদা") ||
 react.includes("ষুদি") ||
-react.includes("bal") ||
+react.includes("mang") ||
 react.includes("খাংকির পোলা") ||
 react.includes("খানকি মাকি") ||
 react.includes("খানকি মাগি") || 
@@ -48,7 +48,7 @@ react.includes("SawYa") ||
 react.includes("Sawya") || 
 react.includes("tor mare xudi") || react.includes("vuda") || react.includes("heda") || react.includes("bap")) {
 		var msg = {
-				body: "- এ্ঁই্ঁ খা্ঁনে্ঁ গা্ঁলা্ঁগা্ঁলি্ঁ ক্ঁরা্ঁ এ্ঁড্ঁমি্ঁনে্ঁ নি্ঁষে্ঁদ্ঁ!!😾"
+				body: "- এ্ঁই্ঁ খা্ঁনে্ঁ গা্ঁলা্ঁগা্ঁলি্ঁ ক্ঁরা্ঁ এ্ঁড্ঁমি্ঁনে্ঁর্ঁ নি্ঁষে্ঁদ্ঁ!!😾"
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🤬", event.messageID, (err) => {}, true)
