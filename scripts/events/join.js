@@ -180,4 +180,25 @@ https://www.facebook.com/profile.php?id=100070297030133&mibextid=ZbWKwL
 
       ♥𝐊𝐈𝐍𝐆 𝐒𝐇𝐎𝐔𝐑𝐎𝐕(✷‿✷)♥
     ╚╩══•" "\n─────────────────\n[ {time} - {thu} ]` : msg = threadData.customJoin;
-      
+      var nameAuthor = await Users.getNameUser(event.author)
+      msg = msg
+        .replace(/\{iduser}/g, iduser.join(', '))
+        .replace(/\{name}/g, nameArray.join(', '))
+        .replace(/\{type}/g, (memLength.length > 1) ? 'You' : 'You')
+        .replace(/\{soThanhVien}/g, memLength.join(', '))
+        .replace(/\{threadName}/g, threadName)
+        .replace(/\{author}/g, nameAuthor)
+        .replace(/\{uidAuthor}/g, event.author)
+        .replace(/\{buoi}/g, session)
+        .replace(/\{time}/g, time)
+        .replace(/\{thu}/g, thu);
+
+      var formPush = { body: msg, attachment: abx, mentions }
+      api.sendMessage(formPush, threadID);
+      for (let ii = 0; ii < parseInt(id.length); ii++) {
+        fs.unlinkSync(__dirname + `/Nayan/join/${ii}.png`)
+      }
+    } catch (e) { return console.log(e) };
+  }
+                   }
+
