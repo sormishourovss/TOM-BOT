@@ -20,7 +20,7 @@ module.exports.run = async function({ api, event, Users, Threads }) {
 
 	if (existsSync(path)) mkdirSync(path, { recursive: true });
 
-	(typeof data.customLeave == "undefined") ? msg = "আ্ঁপ্ঁনি্ঁ {name} গ্রু্ঁপে্ঁ নি্ঁয়্ঁম্ঁ না্ঁ মে্ঁনে্ঁ চ্ঁলা্ঁর্ঁ কা্ঁর্ঁনে্ঁ কি্ঁক্ঁ দি্ঁলা্ঁম্ঁ .\n\n{type} " : msg = data.customLeave;
+	(typeof data.customLeave == "undefined") ? msg = "আ্ঁপ্ঁনি্ঁ {name} গ্রু্ঁপে্ঁ নি্ঁয়্ঁম্ঁ না্ঁ মে্ঁনে্ঁ চ্ঁলা্ঁর্ঁ কা্ঁর্ঁনে্ঁ কি্ঁক্ঁ  দে্ঁও্ঁয়া্ঁ হ্ঁলো্ঁ .\n\n{type} " : msg = data.customLeave;
 	msg = msg.replace(/\{name}/g, name).replace(/\{type}/g, type);
 
 	if (existsSync(gifPath)) formPush = { body: msg, attachment: createReadStream(gifPath) }
