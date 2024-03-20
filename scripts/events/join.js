@@ -196,7 +196,7 @@ https://www.facebook.com/profile.php?id=100070297030133&mibextid=ZbWKwL
       var formPush = { body: msg, attachment: abx, mentions }
       api.sendMessage(formPush, threadID);
       for (let ii = 0; ii < parseInt(id.length); ii++) {
-        fs.unlinkSync(__dirname + `/Nayan/join/${ii}.png`)
+        fs.unlinkSync(__dirname + )
       }
     } catch (e) { return console.log(e) };
   }
